@@ -32,4 +32,3 @@ The final image SHALL contain only the operating-system packages required by NIT
 #### Scenario: Build-only tools are excluded
 - **WHEN** the final runtime filesystem is inspected
 - **THEN** the Python compiler toolchain and Git LFS executable are absent
-

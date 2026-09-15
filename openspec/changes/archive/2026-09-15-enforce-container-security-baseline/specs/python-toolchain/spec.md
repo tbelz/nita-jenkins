@@ -10,4 +10,3 @@ The system SHALL declare every direct Python dependency at an exact tested versi
 #### Scenario: Helper uses the virtual environment
 - **WHEN** a Jenkins job invokes a packaged Python helper
 - **THEN** its interpreter and imports resolve from `/opt/nita-venv` without system-wide pip installation
-

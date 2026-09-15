@@ -24,4 +24,3 @@ Every vulnerability exception SHALL identify the CVE and affected package, state
 #### Scenario: Exception expires
 - **WHEN** the exception expiration date has passed
 - **THEN** Trivy treats the finding as unaccepted and the CRITICAL gate fails
-
